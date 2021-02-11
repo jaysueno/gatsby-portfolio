@@ -12,7 +12,7 @@ export const heroData = {
   title: '',
   name: 'Jay Sueno',
   subtitle: 'Data Scientist & Soul Surfer',
-  cta: '',
+  cta: 'Learn More',
 };
 
 // ABOUT DATA
@@ -20,8 +20,8 @@ export const aboutData = {
   img: 'profile1.jpg',
   paragraphOne: 'A surfing data scientist you say? Wecome to my world. I am passionate about the possibilities of AI and the grandeaur of Mother Nature.',
   paragraphTwo: 'Join me on this journey of growth and grit as a data scientist, investor, writer, and waterman.',
-  paragraphThree: "Find me on ClubHouse (@jaysueno), Twitter (@therealjaysueno), and LinkedIn (/jaysueno).",
-  resume: 'https://docs.google.com/document/d/1VnX78TtlJgy8U0iCmPOLcAt62UnenilIVJE5A_z3l1U/edit?usp=sharing', // if no resume, the button will not show up
+  paragraphThree: "Find me on ClubHouse (@jaysueno) and Twitter (@therealjaysueno)",
+  resume: 'https://www.linkedin.com/in/jaysueno', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -46,9 +46,18 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'podcast.jpg',
+    title: "Media: Living Life Beyond 9-5 In The 'Occupation Wild' Podcast",
+    info: 'I was asked to talk on The OW Podcast with host Courtney Condy.',
+    info2: 'Episode 51 - Thank You Surfing! with Jay Sueno CoFounder of Mama P',
+    url: 'https://www.occupationwild.com/podcast/2020/8/31/episode-51-thank-you-surfing-with-jay-sueno-cofounder-of-mama-p',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'trump.jpg',
+    title: "NLP Sentiment Analysis To Predict The Stock Market",
+    info: "I created an app that would use machine learning algorithms to predict the movements of the stock market based on sentiment analysis of Trump's Tweets",
     info2: '',
     url: '',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
@@ -57,7 +66,7 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: "LET'S CHAT",
+  cta: "WANT TO COLLABORATE? GIVE ME FEEDBACK?",
   btn: 'EMAIL ME',
   email: 'jay.sueno@gmail.com',
 };
@@ -73,7 +82,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'instagram',
-      url: 'https://www.instagram.com/jaysueno',
+      url: 'https://www.instagram.com/jay_sueno',
     },
     {
       id: nanoid(),
