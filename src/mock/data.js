@@ -28,6 +28,15 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'titanic.jpg',
+    title: 'Who Will Survive The Titanic? Exploratory Data Analysis and Machine Learning Predictor On Kaggle',
+    info: 'What insights can we glean from the passenger data of the ill-fated Titanic? From that, can we build a machine learning model to predict who would survive or perish? Check out my analysis and learn how I created a model that has an 80% accuracy rate. Also learn about the biographies of people who survived and did not.',
+    info2: '',
+    url: 'https://www.kaggle.com/jaysueno/titanic-comp',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'copy_wordcloud.png',
     title: 'Surfline Keyword and Sentiment Analysis',
     info: 'In this project I wanted to see what kinds of words Surfline uses in thier news and blog posts. Moreover, is there a way to visualize the findings and provide some insights about how they are positioning the brand in SEO?',
